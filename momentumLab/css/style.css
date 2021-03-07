@@ -1,0 +1,48 @@
+body{
+    color: white;
+}
+
+.background{
+    height: 100%;
+    width: 100%;
+}
+#temp{
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+
+#quote{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    background-color: antiquewhite;
+
+}
+
+#quoteText{
+    position: absolute;
+    bottom: 30px;
+}
+
+#quoteAuthor{
+    position: absolute;
+    bottom: 10px;
+    font-weight: bold;
+}
+
+#time{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 50px;;
+}
+
+#greeting{
+    font-size: 30px;;
+}
